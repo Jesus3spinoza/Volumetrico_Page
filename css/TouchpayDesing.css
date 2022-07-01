@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;800&display=swap');
+
+:root {
+  --touchpay-bg-color: #2f2c79;
+  --touchpay-text-header-color:#FFD900;
+  --touchpay-text-info-color:white;
+}
+
+#touchpay-seccion{
+  padding-top: 50px;
+} 
+
+.fondo-touchpay-seccion{
+  background:var(--touchpay-bg-color);
+  margin-top: 0%;
+  padding-top:0%;
+  display: flex;
+}
+
+.touchpay-seccion-header{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.touchpay-seccion-header-texto{
+  color:var(--touchpay-text-header-color);
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 800;
+  font-size: 6vh;
+}
+
+.touchpay-seccion-info-texto{
+  color: var(--touchpay-text-info-color);
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  font-size: 4vh;
+  text-align: justify;
+}
+
+.touchpay-seccion-info-funciones-img-diseño{
+  border-radius: 15%;
+  padding: 10%;
+}
+
+.touchpay-seccion-info-funciones-texto{
+  text-align: justify;
+  justify-content: center;
+  margin: auto;
+  color: var(--touchpay-text-info-color);
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+  font-size: 3.5vh;
+}
